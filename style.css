@@ -335,5 +335,28 @@ h2 {
     top: 10rem;
     right: 20rem;
     margin-top: 0;
+    /* border: 3px solid #fff;    
+  padding: 20px;              
+  display: inline-block;  
+  border-radius: 8px;  
+  box-shadow:  0 0 92px #f0a; */
 }
 
+.shelf {
+display: grid;
+  grid-template-columns: repeat(2, 120px);
+  grid-template-rows: repeat(3, 120px);
+  gap: 10px;               
+  justify-content: center;   
+  margin-top: 500px;
+}
+
+.disc {
+  font-size: 80px;   /* makes emoji bigger */
+  line-height: 1;    /* optional, avoids extra vertical space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
